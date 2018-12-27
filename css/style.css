@@ -24,7 +24,7 @@ header{
     margin: 200px 0;
 
 }
-h1{
+header h1{
     background: -webkit-linear-gradient(#fff, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -60,9 +60,47 @@ h1{
 .container img{
     width: 100%;
 }
-
+.container .row .bg-dark{
+    background-color: black;
+}
 .container{
     padding: 0 200px;
 }
 
 /* END SECTION 1 */
+
+/* FOOTER START*/
+footer {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.616), rgb(0, 0, 0)), url(../cs6-simple-recap/images/bg-signup.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+footer .section{
+    padding: 150px;
+}
+footer .infos{
+    
+}
+footer hr{
+    border-width: .25rem;
+}
+footer p{
+    font-size: 90%;
+    text-align: center;
+}
+footer .links{
+    text-align: center;
+}
+footer .links a{
+    border-radius: 50%;
+    background-color: #333;
+    border: #333;
+}
+.copyright{
+    background-color: black;
+    text-align: center;
+    color: #333;
+    padding: 50px;
+}
+/* FOOTER END */
